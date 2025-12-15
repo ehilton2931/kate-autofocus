@@ -1,0 +1,21 @@
+{
+	"KPlugin": {
+		"Name": "Kate Autofocus",
+		"Description": "Automatically focuses Kate on workspace switch; mitigates KDE bug 447538",
+		"Icon": "kate",
+		
+		"Authors": [
+		{
+			"Name": "Evan Hilton"
+		}
+		],
+		"Id": "kate-autofocus",
+		"Version": "0.1.0.0",
+		"License": "GPLv3",
+		"Website": "https://github.com/ehilton2931/kate-autofocus",
+		"EnabledByDefault": true
+	},
+	"X-Plasma-API": "javascript",
+	"X-Plasma-MainScript": "code/main.js",
+	"KPackageStructure": "KWin/Script"
+}
